@@ -1,0 +1,17 @@
+﻿Vážený tím [zväz],
+ 
+dovoľte mi predstaviť sa - volám sa Tomáš Belák, som študentom dátovej vedy na Fakulte matematiky, fyziky a informatiky UK a v súčasnosti pracujem na mojej bakalárskej práci na tému "Databáza športovísk na Slovensku". Na projekte pracujem pod odborným vedením môjho školiteľa, Mgr. Martinom Dovičákom, PhD., a s konzultantom Ing. Branislavom Strečanským, bývalým riaditeľom kancelárie štátneho tajomníka pre šport MŠVVaŠ SR.
+ 
+V rámci mojej práce sa zameriavam na zozbieranie informácií o športoviskách pre nasledujúce športy: tenis, futbal, hokej, basketbal, volejbal a plávanie. Preto by som Vás chcel poprosiť o poskytnutie databázy športovísk, ktoré máte v evidencii. Zaujímali by nás hlavne atribúty polohy, veľkosti, kapacity a prípadne iných dát, ktoré máte k daným športoviskám.
+ 
+Verím, že informácie z Vašej databázy významne prispejú k presnosti a hodnote mojej práce a pomôžu poskytnúť komplexný prehľad o dostupných športových zariadeniach na Slovensku.
+ 
+Bol by som veľmi vďačný, ak by ste mohli požadované údaje zdieľať - kľudne vo formáte, ktorý Vám bude najvhodnejší. Samozrejme, v mojej práci budú všetky získané informácie použité s uvedením zdroja. 
+ 
+Ďakujem Vám vopred za Vašu ochotu a spoluprácu. V prípade akýchkoľvek otázok, alebo potreby ďalších informácií ma, prosím, kontaktujte na [e-mail] alebo [tel. č].
+ 
+S úctou,
+ 
+Tomáš Belák
+Študent, FMFI UK
+
