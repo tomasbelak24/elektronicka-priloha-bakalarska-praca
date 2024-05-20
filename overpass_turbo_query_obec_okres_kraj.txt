@@ -1,0 +1,30 @@
+OBCE
+
+[out:json][timeout:200];
+{{geocodeArea:Slovakia}}->.searchArea;
+(
+  relation[admin_level=9](area.slovakia);
+);
+out geom;
+
+-----------------------------------------------------------------
+
+OKRESY
+
+[out:json][timeout:200];
+{{geocodeArea:Slovakia}}->.searchArea;
+(
+  relation[admin_level=8](area.slovakia);
+);
+out geom;
+
+-----------------------------------------------------------------
+
+KRAJE
+
+[out:json][timeout:200];
+{{geocodeArea:Slovakia}}->.searchArea;
+(
+  relation[admin_level=8](area.slovakia);
+);
+out geom;

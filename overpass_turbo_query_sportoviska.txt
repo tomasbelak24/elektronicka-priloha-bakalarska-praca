@@ -1,0 +1,15 @@
+[out:json][timeout:120];
+{{geocodeArea:Slovakia}}->.searchArea;
+(
+  nwr["sport"]["sport"~"^(soccer|swimming|ice_hockey|volleyball|beachvolleyball|ice_skating|basketball|tennis|multi|street_hockey|field_hockey|hockey)$"](area.searchArea);
+  nwr["leisure"="swimming_pool"](area.searchArea);
+  nwr["leisure"="water_park"](area.searchArea);
+  nwr["leisure"="ice_rink"](area.searchArea);
+  nwr["leisure"="pitch"]["sport"!~".*"](area.searchArea);
+  nwr["leisure"="sports_centre"]["sport"!~".*"](area.searchArea);
+  nwr["leisure"="stadium"]["sport"!~".*"](area.searchArea);
+  nwr["building"="stadium"](area.searchArea);
+);
+out geom;
+out meta;
+out skel qt;
