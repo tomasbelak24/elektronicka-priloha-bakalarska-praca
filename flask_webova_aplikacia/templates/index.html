@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{{header|safe}}
+
+{% endblock %}
+
+
+{% block body %}
+
+<div class="sidebar" id="sidebar">
+    <a class="closebtn" onclick="closeSidebar()">X</a>
+    <div id="sidebar-filters">
+        
+      <form id="filterForm" action="/" method="get">
+      <div class="filter">
+          <select name="typeFilter" id="typeFilter">
+            <option value=-1 {% if request.args.get('typeFilter')|string=="-1" %}selected{% endif %}>Všetky typy
+            </option>
+            {% for type in types %}
+            <option value="{{type[0]}}" {% if request.args.get('typeFilter')|string==type[0]|string %}selected{% endif %}>
+              {{type[2]}}</option>
+            {% endfor %}
+          </select>
+      </div>
+      
+      <div class="filter">
+        <select name="okresFilter" id="okresFilter">
+          <option value=-1 {% if request.args.get('okresFilter')|string=="-1" %}selected{% endif %}>Všetky okresy
+          </option>
+          {% for okres in okresy %}
+          <option value="{{okres[0]}}" {% if request.args.get('okresFilter')|string==okres[0]|string %}selected{% endif %}>
+            {{okres[1]}}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="filter">
+        <select name="sportFilter" id="sportFilter">
+          <option value=all {% if request.args.get('okresFilter')|string=="-1" %}selected{% endif %}>Všetky športy
+          </option>
+          {% for sport in sporty %}
+          <option value="{{sport[0]}}" {% if request.args.get('sportFilter')|string==sport[0]|string %}selected{% endif %}>
+            {{sport[1]}}</option>
+          {% endfor %}
+        </select>
+      </div>
+      
+      <div class="filter">
+        <button type="submit">Filtruj</button>
+      </div>
+    </form>
+    </div>
+    
+    <div class="hidden" id="sidebar-details">
+        <a class="backbtn" onclick="closeSidebarDetails()">&lt;</a>
+        <div id="node-details">
+        </div>
+    </div>
+    
+</div>
+
+<button class="openbtn" onclick="openSidebar()">></button>
+
+{{body|safe}}
+
+<script>
+    {{script|safe}}
+</script>
+
+
+{% endblock %}

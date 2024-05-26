@@ -1,0 +1,6 @@
+date: 2024-05-26 00:55:27
+total: 509.04
+1_preprocessing.ipynb: 184.16, result: success
+2_poloha.ipynb: 55.06, result: success
+3_preklad.ipynb: 44.28, result: success
+4_nacitaj_do_db.ipynb: 225.53, result: success

@@ -1,0 +1,6 @@
+date: 2024-05-26 16:38:45
+total: 473.91 s
+1_preprocessing.ipynb: 182.80 s, result: success
+2_poloha.ipynb: 51.91 s, result: success
+3_preklad.ipynb: 42.87 s, result: success
+4_nacitaj_do_db.ipynb: 196.33 s, result: success

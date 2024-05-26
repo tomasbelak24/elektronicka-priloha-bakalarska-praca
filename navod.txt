@@ -1,0 +1,11 @@
+Webová aplikácia aj ETL process boli vyvinuté vo virtuálnom prostredí cez nástroj Anaconda. Pre správne fungovanie webovej aplikácie a ETL procesu treba oba spúšťať s nainštalovanými modulmi vymenovanými v súbore requirements.txt.
+Pre zabezpečenie fungovania ETL procesu treba vytvoriť aj Python Kernel s príslušnými modulmi.
+
+Do konzole treba napísať následovné príkazy:
+
+> conda create --name bak python=3.12.0 (vyvorí virtuálne prostredie s názvom "bak" s verziou Pythonu 3.12.0)
+> conda activate bak ( aktivuje virtuálne prostredie "bak")
+> pip install -r requirements.txt ( nainštaluje potrebné moduly )
+> python -m ipykernel install --user --name bak --display-name "Python Kernel Bakalarka" ( Vytvorí kernel, v ktorom sa spúštajú Jupyter notebook, ktoré sú súčasťou ETL procesu)
+
+Následne po spustení ./flask_webova_aplikacia/app.py v prostredí "bak" bude bez problémov fungovať webová aplikácia. Rovnako tak aj ETL proces, ktorý sa spúšťa spustením skriptu ./etl_proces/workflow.py.

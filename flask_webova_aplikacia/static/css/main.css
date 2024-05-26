@@ -1,0 +1,182 @@
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.filter {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+.filter input,
+.filter select,
+.filter button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+.filter button {
+  background-color: #0044cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.filter button:hover {
+  background-color: #003399;
+}
+
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-right: 50px;
+    padding-top: 20px;
+    z-index: 900;
+}
+
+#hamburger-icon {
+    background: fixed;
+    background-color: #0044cc;
+    border: none;
+    font-size: 45px;
+    cursor: pointer;
+    color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.nav-menu {
+    display: none;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: absolute;
+    right: 60px;
+    top: 95px;
+}
+
+.nav-menu a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 28px;
+}
+
+.nav-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.zisti_viac {
+    border: none;
+    background-color: #ffffff;
+    white-space: normal;
+    width: auto;
+    padding: 10px;
+    overflow: visible;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.leaflet-control-zoom {
+    display: none !important;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2001;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #353535;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .sidebar .backbtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 36px;
+    margin-left: 10px;
+  }
+
+  .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    height: 40px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .node-detail-column {
+    margin: 30px 20px;
+    border-bottom: solid 2px #333;
+  }
+
+  .node-detail-name {
+    display: inline-block;
+    font-size: 24px;
+    color: #7d7d7d;
+    padding-right: 20px;
+  }
+
+  .node-detail-value {
+    display: inline-block;
+    font-size: 28px;
+  }
