@@ -4,14 +4,15 @@ import psycopg2.extras
 import os
 import folium
 from folium.plugins import MarkerCluster
+import db_credentials
 
 app = Flask(__name__)
 
 # DB
-DB_HOST = os.getenv('DB_HOST', '161.35.28.162')
-DB_NAME = os.getenv('DB_NAME', 'bakalarka_sportoviska')
-DB_USER = os.getenv('DB_USER', 'tomas')
-DB_PASSWORD = os.getenv('DB_PASSWORD', 'waedgyasd8')
+DB_HOST = os.getenv('DB_HOST', db_credentials.host)
+DB_NAME = os.getenv('DB_NAME', db_credentials.dbname)
+DB_USER = os.getenv('DB_USER', db_credentials.user)
+DB_PASSWORD = os.getenv('DB_PASSWORD', db_credentials.password)
 
 # FUNKCIE
 
