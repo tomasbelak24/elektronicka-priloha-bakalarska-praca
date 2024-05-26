@@ -1,0 +1,19 @@
+Folder etl_proces obsahuje súbory potrebné k spusteniu procesu, ktorý transformuje a načíta data do databázy.
+
+Folder flask_webova_aplikcia obsahuje zdrojový kód webovej aplikácie.
+
+Folder grafy obsahuje obrázky grafov spomínaných v texte práce.
+
+Folder overpass_turbo_queries obsahuje dopyty pre extrahovanie dát z OpenStreetMap pomocou Overpass Turbo.
+
+Excel súbor ciselnik_typov_sportovisk.xlsx obsahuje kompletný číselník využitý pri klasifikácii športovísk.
+
+Excel súbor export_databazy.xlsx obsahuje export databázy.
+
+Excel súbor fyzicky_zber_log_zmien.xlsx obsahuje poznámky z pozorovania športovísk počas fyzického prieskumu obce Pezinok.
+
+Textový súbor email.txt obsahuje znenie e-mailu posielaného zväzom so žiadosťou o poskytnutie informácií o športoviskách v ich správe.
+
+Textový súbor requirements.txt obsahuje zoznam potrebných Python modulov pre fungovanie ETL procesu a webovej aplikácie.
+
+Textový súbor navod_spustanie_etl_a_web_app.txt obsahuje inštrukcie krokov, ktoré treba vykonať pred spustením či už ETL procesu, alebo webovej aplikácie. 

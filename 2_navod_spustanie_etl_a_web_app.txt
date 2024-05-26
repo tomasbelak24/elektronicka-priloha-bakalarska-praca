@@ -9,3 +9,6 @@ Do konzole treba napísať následovné príkazy:
 > python -m ipykernel install --user --name bak --display-name "Python Kernel Bakalarka" ( Vytvorí kernel, v ktorom sa spúštajú Jupyter notebook, ktoré sú súčasťou ETL procesu)
 
 Následne po spustení ./flask_webova_aplikacia/app.py v prostredí "bak" bude bez problémov fungovať webová aplikácia. Rovnako tak aj ETL proces, ktorý sa spúšťa spustením skriptu ./etl_proces/workflow.py.
+
+Spúšťací súbor webovej aplikácie./flask_webova_aplikacia/app.py a takisto aj jeden z komponentov ETL procesu ./etl_proces/workflow-notebooks/4_nacitaj_do_db.ipynb vyžadujú pripojenie na databázu. Informácie o databáze treba vyplniť 
+v príslušnom db_credentials.py súbore odkiaľ sa informácie importujú.
