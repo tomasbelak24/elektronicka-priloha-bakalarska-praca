@@ -1,0 +1,2 @@
+Webová aplikácia sa spúšťa spustením skriptu app.py. Pred spustením skriptu app.py sa treba uistiť, že boli splnené pokyny popísané v textovom súbore 2_navod_spustanie_etl_a_web_app.txt inak pravdepodobne dojde k chybe.
+Vo foldri static sa nachádzajú CSS a JavaScript súbory. Vo foldri templates sa nachádzajú HTML šablóny. V súbore db_credentials sa nachádzajú údaje potrebné pre prístup k databáze.
