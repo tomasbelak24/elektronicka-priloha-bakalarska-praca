@@ -16,4 +16,8 @@ Textový súbor email.txt obsahuje znenie e-mailu posielaného zväzom so žiado
 
 Textový súbor requirements.txt obsahuje zoznam potrebných Python modulov pre fungovanie ETL procesu a webovej aplikácie.
 
-Textový súbor navod_spustanie_etl_a_web_app.txt obsahuje inštrukcie krokov, ktoré treba vykonať pred spustením či už ETL procesu, alebo webovej aplikácie. 
+Textový súbor navod_spustanie_etl_a_web_app.txt obsahuje inštrukcie krokov, ktoré treba vykonať pred spustením či už ETL procesu, alebo webovej aplikácie.
+
+Odkaz Ukazka_webovej_aplikacie-YouTube smeruje na platformu YouTube kde je nahrané video ukážky webovej aplikácie.
+
+Dotaznik-Databaza_sportovisk smeruje na platformu Google Forms kde je k dispozícii prototyp dotazníku ku zberu dát o športoviskách.
