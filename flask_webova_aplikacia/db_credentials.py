@@ -1,4 +1,4 @@
-host = '161.35.28.162'
+host = ''
 dbname = 'bakalarka_sportoviska'
-user = 'tomas'
-password = 'waedgyasd8'
+user = ''
+password = ''
